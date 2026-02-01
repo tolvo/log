@@ -32,9 +32,6 @@ For example, to log an entry in the 'work' book, you would use:
 			fmt.Println(`log in remember "don't be an asshole"`)
 			return
 		}
-
-		book := args[0]
-		entry := args[1]
 	},
 }
 
